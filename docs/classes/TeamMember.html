@@ -14,12 +14,12 @@
 <li><a href="TeamMember.html">TeamMember</a></li></ul>
 <h1>Class TeamMember</h1></div>
 <section class="tsd-panel tsd-comment">
-<div class="tsd-comment tsd-typography"><p>Every structure receivable by a Client</p>
+<div class="tsd-comment tsd-typography"><p>Everything that can be represented as a Snowflake on Discord</p>
 </div></section>
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
-<li><a href="GenericEntity.html" class="tsd-signature-type" data-tsd-kind="Class">GenericEntity</a>
+<li><a href="SnowEntity.html" class="tsd-signature-type" data-tsd-kind="Class">SnowEntity</a>
 <ul class="tsd-hierarchy">
 <li><span class="target">TeamMember</span></li></ul></li></ul></section>
 <section class="tsd-panel-group tsd-index-group">
@@ -34,6 +34,7 @@
 <section class="tsd-index-section">
 <h3 class="tsd-index-heading">Properties</h3>
 <div class="tsd-index-list"><a href="TeamMember.html#client" class="tsd-index-link tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF984D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-1024-path"></rect><path d="M9.354 16V7.24H12.174C12.99 7.24 13.638 7.476 14.118 7.948C14.606 8.412 14.85 9.036 14.85 9.82C14.85 10.604 14.606 11.232 14.118 11.704C13.638 12.168 12.99 12.4 12.174 12.4H10.434V16H9.354ZM10.434 11.428H12.174C12.646 11.428 13.022 11.284 13.302 10.996C13.59 10.7 13.734 10.308 13.734 9.82C13.734 9.324 13.59 8.932 13.302 8.644C13.022 8.356 12.646 8.212 12.174 8.212H10.434V11.428Z" fill="var(--color-text)" id="icon-1024-text"></path></svg><span>client</span></a>
+<a href="TeamMember.html#id" class="tsd-index-link tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>id</span></a>
 <a href="TeamMember.html#membershipState" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>membership<wbr/>State</span></a>
 <a href="TeamMember.html#permissions" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>permissions</span></a>
 <a href="TeamMember.html#shardId" class="tsd-index-link tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>shard<wbr/>Id</span></a>
@@ -56,9 +57,7 @@
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5>client: <a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></h5>
-<div class="tsd-comment tsd-typography"><p>The Client that created this structure</p>
-</div></li>
+<h5>client: <a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></h5></li>
 <li>
 <h5>shardId: <span class="tsd-signature-type">number</span></h5></li>
 <li>
@@ -66,7 +65,7 @@
 <div class="tsd-comment tsd-typography"><p>The data of this Team Member</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="TeamMember.html" class="tsd-signature-type" data-tsd-kind="Class">TeamMember</a></h4><aside class="tsd-sources">
-<p>Overrides <a href="GenericEntity.html">GenericEntity</a>.<a href="GenericEntity.html#constructor">constructor</a></p></aside></li></ul></section></section>
+<p>Overrides <a href="SnowEntity.html">SnowEntity</a>.<a href="SnowEntity.html#constructor">constructor</a></p></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a id="client" class="tsd-anchor"></a>
@@ -74,37 +73,45 @@
 <div class="tsd-signature">client<span class="tsd-signature-symbol">:</span> <a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></div>
 <div class="tsd-comment tsd-typography"><p>The Client that created this entity</p>
 </div><aside class="tsd-sources">
-<p>Inherited from <a href="GenericEntity.html">GenericEntity</a>.<a href="GenericEntity.html#client">client</a></p>
+<p>Inherited from <a href="SnowEntity.html">SnowEntity</a>.<a href="SnowEntity.html#client">client</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/4da554f/src/structures/GenericEntity.ts#L10">src/structures/GenericEntity.ts:10</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/7cc1f31/src/structures/GenericEntity.ts#L10">src/structures/GenericEntity.ts:10</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a id="id" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>id</span><a href="#id" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<div class="tsd-signature">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+<div class="tsd-comment tsd-typography"><p>The Id of this entity</p>
+</div><aside class="tsd-sources">
+<p>Inherited from <a href="SnowEntity.html">SnowEntity</a>.<a href="SnowEntity.html#id">id</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/7cc1f31/src/structures/SnowEntity.ts#L13">src/structures/SnowEntity.ts:13</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="membershipState" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>membership<wbr/>State</span><a href="#membershipState" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">membership<wbr/>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/4da554f/src/structures/TeamMember.ts#L7">src/structures/TeamMember.ts:7</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/7cc1f31/src/structures/TeamMember.ts#L7">src/structures/TeamMember.ts:7</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="permissions" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>permissions</span><a href="#permissions" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">permissions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/4da554f/src/structures/TeamMember.ts#L8">src/structures/TeamMember.ts:8</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/7cc1f31/src/structures/TeamMember.ts#L8">src/structures/TeamMember.ts:8</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a id="shardId" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>shard<wbr/>Id</span><a href="#shardId" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">shard<wbr/>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 <div class="tsd-comment tsd-typography"><p>The Id of the shard that recevied this entity</p>
 </div><aside class="tsd-sources">
-<p>Inherited from <a href="GenericEntity.html">GenericEntity</a>.<a href="GenericEntity.html#shardId">shardId</a></p>
+<p>Inherited from <a href="SnowEntity.html">SnowEntity</a>.<a href="SnowEntity.html#shardId">shardId</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/4da554f/src/structures/GenericEntity.ts#L14">src/structures/GenericEntity.ts:14</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/7cc1f31/src/structures/GenericEntity.ts#L14">src/structures/GenericEntity.ts:14</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="teamId" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>team<wbr/>Id</span><a href="#teamId" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">team<wbr/>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/4da554f/src/structures/TeamMember.ts#L9">src/structures/TeamMember.ts:9</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/7cc1f31/src/structures/TeamMember.ts#L9">src/structures/TeamMember.ts:9</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="user" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>user</span><a href="#user" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">user<span class="tsd-signature-symbol">:</span> <a href="User.html" class="tsd-signature-type" data-tsd-kind="Class">User</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/4da554f/src/structures/TeamMember.ts#L10">src/structures/TeamMember.ts:10</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/discord4js/discord4js/blob/7cc1f31/src/structures/TeamMember.ts#L10">src/structures/TeamMember.ts:10</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="_updateProps" class="tsd-anchor"></a>
@@ -119,7 +126,7 @@
 <li>
 <h5>data: <a href="../interfaces/APITeamMember.html" class="tsd-signature-type" data-tsd-kind="Interface">APITeamMember</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
-<p>Overrides <a href="GenericEntity.html">GenericEntity</a>.<a href="GenericEntity.html#_updateProps">_updateProps</a></p></aside></li></ul></section></section></div>
+<p>Overrides <a href="SnowEntity.html">SnowEntity</a>.<a href="SnowEntity.html#_updateProps">_updateProps</a></p></aside></li></ul></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -147,6 +154,7 @@
 <ul>
 <li class="tsd-kind-constructor tsd-parent-kind-class"><a href="TeamMember.html#constructor" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-512-path"></use><use href="#icon-512-text"></use></svg>constructor</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TeamMember.html#client" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>client</a></li>
+<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TeamMember.html#id" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>id</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="TeamMember.html#membershipState" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>membership<wbr/>State</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="TeamMember.html#permissions" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>permissions</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TeamMember.html#shardId" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>shard<wbr/>Id</a></li>
